@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "test": "true",
-    "build": "node index.js"
+    "build": "node index.js",
+    "postinstall": "git submodule update --init --recursive && npm run build"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,15 @@
+[submodule "dist/hyperterm-tomorrow"]
+	path = dist/hyperterm-tomorrow
+	url = git@github.com:ngs/hyperterm-tomorrow.git
+[submodule "dist/hyperterm-tomorrow-night"]
+	path = dist/hyperterm-tomorrow-night
+	url = git@github.com:ngs/hyperterm-tomorrow-night.git
+[submodule "dist/hyperterm-tomorrow-night-blue"]
+	path = dist/hyperterm-tomorrow-night-blue
+	url = git@github.com:ngs/hyperterm-tomorrow-night-blue.git
+[submodule "dist/hyperterm-tomorrow-night-bright"]
+	path = dist/hyperterm-tomorrow-night-bright
+	url = git@github.com:ngs/hyperterm-tomorrow-night-bright.git
+[submodule "dist/hyperterm-tomorrow-night-eighties"]
+	path = dist/hyperterm-tomorrow-night-eighties
+	url = git@github.com:ngs/hyperterm-tomorrow-night-eighties.git
