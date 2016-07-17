@@ -1,0 +1,12 @@
+#002451 Background
+#00346e Current Line
+#003f8e Selection
+#ffffff Foreground
+#7285b7 Comment
+#ff9da4 Red
+#ffc58f Orange
+#ffeead Yellow
+#d1f1a9 Green
+#99ffff Aqua
+#bbdaff Blue
+#ebbbff Purple

@@ -1,0 +1,15 @@
+// <%= theme.name %> Theme
+
+exports.middleware = (store) => (next) => (action) => {
+  switch (action.type) {
+    case 'CONFIG_LOAD':
+    case 'CONFIG_RELOAD':
+      action.config.foregroundColor = '#<%= theme.foreground %>';
+      action.config.backgroundColor = '#<%= theme.background %>';
+      action.config.cursorColor = '#<%= theme['selection'] %>';
+      action.config.colors = <%- JSON.stringify(colors, null, 8).replace(/\n\]$/, '\n      ]') %>;
+      action.config.css = '.title_1i8co95 { color: #<%= theme.foreground %> !important }'
+  }
+  next(action)
+}
+

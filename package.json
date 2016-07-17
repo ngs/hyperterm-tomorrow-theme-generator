@@ -1,0 +1,26 @@
+{
+  "name": "hyperterm-tomorrow-theme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "true",
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ngs/hyperterm-tomorrow-theme-generator.git"
+  },
+  "author": "Atsushi Nagase <a@ngs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngs/hyperterm-tomorrow-theme-generator/issues"
+  },
+  "homepage": "https://github.com/ngs/hyperterm-tomorrow-theme-generator#readme",
+  "dependencies": {
+    "color": "^0.11.3",
+    "ejs": "^2.4.2",
+    "fs-extra": "^0.30.0"
+  }
+}

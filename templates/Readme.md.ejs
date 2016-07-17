@@ -1,0 +1,14 @@
+<%= theme.packageName %>
+<%= theme.packageName.replace(/./g, '=') %>
+
+[Hyperterm] theme based on [<%= theme.name %> theme]
+
+![Screenshot](screenshot.png)
+
+How to use
+----------
+
+Add `<%= theme.packageName %>` to `plugins` in ``~/.hyperterm.js`.
+
+[Hyperterm]: https://hyperterm.org/
+[<%= theme.name %> theme]: https://github.com/chriskempson/tomorrow-theme#<%= theme.packageName.replace(/^hyperterm\-/, '') %>
